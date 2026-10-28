@@ -1,0 +1,8 @@
+.env
+.venv
+.git
+**/__pycache__
+warehouse/target
+warehouse/logs
+dumps
+config/companies.local.json

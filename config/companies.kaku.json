@@ -1,0 +1,12 @@
+[
+  {
+    "company_id": "kaku",
+    "name": "KAKU",
+    "host": "kaku-source",
+    "port": 3306,
+    "database": "tenant_kaku_sales",
+    "user": "kaku_reader",
+    "password_env": "KAKU_SOURCE_PASSWORD",
+    "timezone": "+00:00"
+  }
+]

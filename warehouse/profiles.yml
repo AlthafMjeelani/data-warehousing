@@ -1,0 +1,12 @@
+sales_warehouse:
+  target: local
+  outputs:
+    local:
+      type: postgres
+      host: "{{ env_var('PGHOST', 'warehouse') }}"
+      port: "{{ env_var('PGPORT', '5432') | int }}"
+      user: "{{ env_var('PGUSER', 'warehouse') }}"
+      password: "{{ env_var('PGPASSWORD') }}"
+      dbname: "{{ env_var('PGDATABASE', 'analytics') }}"
+      schema: core
+      threads: 1

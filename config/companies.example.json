@@ -1,0 +1,22 @@
+[
+  {
+    "company_id": "company_a",
+    "name": "Demo Company A",
+    "host": "source",
+    "port": 3306,
+    "database": "company_a",
+    "user": "warehouse_reader",
+    "password_env": "SOURCE_A_PASSWORD",
+    "timezone": "+00:00"
+  },
+  {
+    "company_id": "company_b",
+    "name": "Demo Company B",
+    "host": "source",
+    "port": 3306,
+    "database": "company_b",
+    "user": "warehouse_reader",
+    "password_env": "SOURCE_B_PASSWORD",
+    "timezone": "+00:00"
+  }
+]
